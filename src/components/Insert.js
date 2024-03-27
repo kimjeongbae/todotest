@@ -1,9 +1,9 @@
-function Insert ({onInsert}) {
-    return(
+function Insert({ onInsert }) {
+    return (
 
         <form onSubmit={onInsert}>
             <input name="text" /><button type="submit">등록</button>
-         </form> 
+        </form>
 
     );
 
